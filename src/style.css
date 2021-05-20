@@ -1,8 +1,35 @@
+
+*{padding: 0; margin: 0;font-family: Josefin Sans;}
 html{
   font-size: 10px;
 }
-
+.body{
+  height: 100vh;
+ display: flex;
+flex-direction:column;
+align-items: center;
+justify-content: center;
+}
+.wrap{
+  border:0.1em solid black ;
+  background-color: ghostWhiite;
+  padding:5em;
+  box-shadow: 1em 1em black;
+}
 h1 {
-  font-size: 5rem;
+  text-align: center
+  ;
+  font-size: 5em;
   font-family: Josefin Sans;
+}
+#sftList{
+  font-size: 2.5em;
+  list-style:n;
+}
+.video{
+  margin: 2em;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
