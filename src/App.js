@@ -6,11 +6,14 @@ export default function App() {
     <>
       <div className="wrap">
         <h1>Hi!</h1>
+        <ul>
+          <li>Clean your hands often</li>
+          <li>Cough or sneeze in your bent elbow - not your hands!</li>
+          <li>Limit social gatherings and time spent in crowded places</li>
+          <li>Clean and disinfect frequently touched objects and surfaces</li>
+        </ul>
         <div className="video">
-          <video class="video-js">
-            <source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />
-            <source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm" />
-          </video>
+          <iframe width="350" height="300" src="https://www.youtube.com/embed/xVu_I6WCsto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </>
